@@ -199,9 +199,7 @@ local config = {
     -- Configure plugins
     plugins = {
         init = {
-            {"catppuccin/nvim", as = "catppuccin"},
-            {"rafamadriz/friendly-snippets"}
-
+            {"catppuccin/nvim", as = "catppuccin"}
             -- You can disable default plugins as follows:
             -- ["goolord/alpha-nvim"] = { disable = true },
 
@@ -255,9 +253,7 @@ local config = {
     -- LuaSnip Options
     luasnip = {
         -- Extend filetypes
-        filetype_extend = {
-          javascript = {"javascriptreact"},
-        },
+        filetype_extend = {javascript = {"javascriptreact"}},
         -- Configure luasnip loaders (vscode, lua, and/or snipmate)
         vscode = {
             -- Add paths for including more VS Code style snippets in luasnip
